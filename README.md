@@ -1,11 +1,8 @@
 # Rezofora
 
-
 SveltKit Rezofora landing page.
 
-
 ## Developing
-
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -27,9 +24,8 @@ To create a production version of your app:
 npm run build
 ```
 
-You can preview the production build with 
+You can preview the production build with
 
 ```sh
 npm run preview -- --host --port
 ```
-
