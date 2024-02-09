@@ -8,6 +8,7 @@
 
 {#if !$isLoading}
 	<Navigation
+		title="{$_('page.title')}"
 		navigationItems={[new NavigationItem($_('header.about'), `${base}/about`)]}
 		type="topbar"
 	/>
