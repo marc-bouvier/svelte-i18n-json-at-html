@@ -1,5 +1,4 @@
 <script lang="ts">
-	/* eslint svelte/no-at-html-tags: "off" */
 	import { _ } from 'svelte-i18n';
 </script>
 
@@ -15,6 +14,6 @@
 </div>
 
 <style lang="scss">
-	@use 'node_modules/@iroco/ui/dist/scss/colors';
-	@import 'node_modules/@iroco/ui/dist/scss/containers';
+  @use 'node_modules/@iroco/ui/dist/scss/colors';
+  @import 'node_modules/@iroco/ui/dist/scss/containers';
 </style>

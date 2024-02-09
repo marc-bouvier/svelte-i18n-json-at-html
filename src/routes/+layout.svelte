@@ -1,12 +1,16 @@
 <script>
-	import '../i18n/index.js';
+	import '../i18n';
 	import { _, isLoading } from 'svelte-i18n';
-	import '../app.scss';
 	import { Navigation, NavigationItem } from '@iroco/ui';
+	import { base } from '$app/paths';
+	import '../app.scss';
 </script>
 
 {#if !$isLoading}
-	<Navigation navigationItems={[new NavigationItem($_('header.about'), '/about')]} type="topbar" />
+	<Navigation
+		navigationItems={[new NavigationItem($_('header.about'), `${base}/about`)]}
+		type="topbar"
+	/>
 	<main class="main">
 		<slot />
 	</main>
