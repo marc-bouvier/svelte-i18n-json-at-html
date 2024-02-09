@@ -37,4 +37,3 @@ After building the app, you can deploy it.
 ```sh
 npm run deploy
 ```
-

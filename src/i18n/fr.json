@@ -1,15 +1,15 @@
 {
-  "header": {
-    "about": "À propos"
-  },
-  "about": {
-    "title": "À propos"
-  },
-  "page": {
-    "title": "⏳Page title⏳"
-  },
-  "temp": {
-    "lorem": "Lorem Ipsum",
-    "lipsum": "🇫🇷 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac luctus enim. Integer sodales leo nec nibh convallis, vitae efficitur ante lacinia. Phasellus lectus massa, venenatis nec orci eu, tempor tempor eros. Suspendisse orci dolor, lobortis ut mollis eu, tempor in urna. Ut efficitur velit sem, nec dapibus tortor molestie ut. Curabitur eget leo feugiat, lobortis velit in, porttitor mauris. Duis eget imperdiet ipsum. In hac habitasse platea dictumst. Integer sollicitudin sed elit vitae commodo."
-  }
+	"header": {
+		"about": "À propos"
+	},
+	"about": {
+		"title": "À propos"
+	},
+	"page": {
+		"title": "⏳Page title⏳"
+	},
+	"temp": {
+		"lorem": "Lorem Ipsum",
+		"lipsum": "🇫🇷 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac luctus enim. Integer sodales leo nec nibh convallis, vitae efficitur ante lacinia. Phasellus lectus massa, venenatis nec orci eu, tempor tempor eros. Suspendisse orci dolor, lobortis ut mollis eu, tempor in urna. Ut efficitur velit sem, nec dapibus tortor molestie ut. Curabitur eget leo feugiat, lobortis velit in, porttitor mauris. Duis eget imperdiet ipsum. In hac habitasse platea dictumst. Integer sollicitudin sed elit vitae commodo."
+	}
 }
