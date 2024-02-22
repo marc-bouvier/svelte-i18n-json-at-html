@@ -6,11 +6,12 @@
 	<title>{$_('page.title')}</title>
 </svelte:head>
 <section>
-	<h1>{$_('temp.lorem')}</h1>
+	<h1>Use</h1>
 	<p>{$_('temp.lipsum')}</p>
+
 </section>
 
 <style lang="scss">
-	@use 'node_modules/@iroco/ui/dist/scss/colors';
-	@import 'node_modules/@iroco/ui/dist/scss/button';
+	//@use 'node_modules/@iroco/ui/dist/scss/colors';
+	//@import 'node_modules/@iroco/ui/dist/scss/button';
 </style>

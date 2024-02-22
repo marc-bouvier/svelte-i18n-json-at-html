@@ -1,12 +1,28 @@
 {
 	"header": {
-		"about": "À propos"
+		"about": "À propos",
+		"faq": "FAQ"
 	},
 	"about": {
 		"title": "À propos"
 	},
 	"page": {
 		"title": "Rezofora"
+	},
+	"footer": {
+		"socialmedia": "Contact",
+		"subscribe": "Ouvrir un compte",
+		"mailto": "Envoyez-nous un mail",
+		"menu": {
+			"title": "Menu"
+		},
+		"other": {
+
+			"terms": "Conditions Générales de Vente",
+			"legal": "Mentions Légales",
+			"faq": "Foire Aux Questions",
+			"copyrights": "© 2023 Iroco. Tous droits réservés."
+		}
 	},
 	"temp": {
 		"lorem": "Lorem Ipsum",

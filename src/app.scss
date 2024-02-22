@@ -1,8 +1,10 @@
-@use 'node_modules/@iroco/ui/dist/scss/colors';
+@use './colors';
+
 @use 'node_modules/@iroco/ui/dist/scss/fonts';
 @use 'node_modules/@iroco/ui/dist/scss/style';
 @use 'node_modules/@iroco/ui/dist/scss/constants';
 @import 'node_modules/@iroco/ui/dist/scss/containers';
+
 
 
 *,
@@ -13,7 +15,7 @@
 }
 
 a {
-  color: colors.$green;
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -30,7 +32,7 @@ hr {
 
 button {
   text-decoration: none;
-  color: colors.$beige;
+  color: var(--color-text);
 }
 
 h1 {
@@ -52,7 +54,7 @@ html {
   padding: 0;
 
   > body {
-    @include fonts.Arial(14px, colors.$beige);
+    @include fonts.Arial(14px, var(--color-text));
     line-height: 1.7em;
     font-size: 18px;
     margin: 0;
@@ -62,7 +64,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-kerning: normal;
-    background: colors.$darkBlue;
+    background: var(--color-body);
   }
 }
 

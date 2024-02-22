@@ -3,12 +3,12 @@
 </script>
 
 <svelte:head>
-	<title>{$_('about.title')}</title>
+	<title>{$_('faq.title')}</title>
 </svelte:head>
 
 <div class="about">
 	<section class="about__project">
-		<h1>{$_('about.title')}</h1>
+		<h1>{$_('faq.title')}</h1>
 		<p>{$_('temp.lipsum')}</p>
 	</section>
 </div>
