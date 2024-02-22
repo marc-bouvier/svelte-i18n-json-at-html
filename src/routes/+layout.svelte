@@ -29,28 +29,28 @@
 
 
 <style lang="scss">
-  //@use "../app";
-	//
-  //:global(.navigation) {
-  //  position: fixed;
-  //  top: 0;
-  //  background-color: colors.$background;
-  //  z-index: 1;
-  //  :global(.nav__topbar__item a):not(.iroco-ui-button) {
-  //    font-size: 1.5em;
-  //    color: colors.$text;
-  //  }
-  //}
-	//
-  //:global(.navigation--mobile) {
-  //  :global(.nav__topbar__item a) {
-  //    color: colors.$text;
-  //    font-size: 1.5em;
-  //  }
-  //}
-	//
-  //:global(.navigation--mobile) {
-  //  border-bottom: none;
-  //  background-color: colors.$background;
-  //}
+  @use "../app";
+
+  :global(.navigation) {
+    position: fixed;
+    top: 0;
+    background-color: var(--color-body);
+    z-index: 1;
+    :global(.nav__topbar__item a):not(.iroco-ui-button) {
+      font-size: 1.5em;
+      color: var(--color-text);
+    }
+  }
+
+  :global(.navigation--mobile) {
+    :global(.nav__topbar__item a) {
+      color:  var(--color-text);
+      font-size: 1.5em;
+    }
+  }
+
+  :global(.navigation--mobile) {
+    border-bottom: none;
+    background-color:  var(--color-body);
+  }
 </style>

@@ -30,17 +30,17 @@
   --color-warning-bg: #ffe03280;
 
   /* typography */
-  --color-text-light: #ffffff;
-  --color-text: #f2ebe3;
-  --color-text-op-50: #f2ebe380;
-  --color-text-op-60: #f2ebe399;
-  --color-text-dark: #464452;
+  --color-text-light: #575454;
+  --color-text: #232220;
+  --color-text-op-50: rgba(63, 61, 58, 0.5);
+  --color-text-op-60: rgba(56, 54, 52, 0.6);
+  --color-text-dark: #2f2e33;
 
   /* border */
   --color-border: #464452;
 
   /* body */
-  --color-body: #211d28;
+  --color-body: #e8e8e8;
 
   /* forms */
   --form-element-border: var(--color-border);
