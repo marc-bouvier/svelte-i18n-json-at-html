@@ -55,7 +55,7 @@
 </footer>
 
 <style lang="scss">
-  @import "node_modules/@iroco/ui/dist/scss/containers";
+  @import "@iroco/ui/dist/scss/containers";
 
   :global svg.greenIcon {
     fill: var(--color-primary) !important;
