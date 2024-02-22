@@ -12,6 +12,4 @@
 </section>
 
 <style lang="scss">
-	//@use 'node_modules/@iroco/ui/dist/scss/colors';
-	//@import 'node_modules/@iroco/ui/dist/scss/button';
 </style>
