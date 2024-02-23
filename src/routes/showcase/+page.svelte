@@ -9,7 +9,10 @@
 <div class="about">
 	<section class="about__project">
 		<h1>{$_('terms.title')}</h1>
-		<p>Page ou mettre plusieurs composants pour avoir une vision de l'ensemble des composants utiles dans le site.</p>
+		<p>
+			Page ou mettre plusieurs composants pour avoir une vision de l'ensemble des composants utiles
+			dans le site.
+		</p>
 	</section>
 </div>
 
