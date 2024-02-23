@@ -2,6 +2,7 @@
 	import { _ } from 'svelte-i18n';
 	import { Alert, Button, DataTable, NumberInput, RadioButton, TextInput, TextInputType } from '$iroco-ui';
 	import ImageArticle from '$iroco-ui/ImageArticle.svelte';
+	import { base } from '$app/paths';
 
 	let group = 'hello';
 	let successAlertVisible = false;
@@ -27,7 +28,7 @@
 	</section>
 	<section>
 		<h2>Typographie</h2>
-		<p><a href="/showcase#">Lien hypertexte</a></p>
+		<p><a href="{base}/showcase#">Lien hypertexte</a></p>
 	</section>
 	<section class="showcase_form">
 		<h2>Forms</h2>
