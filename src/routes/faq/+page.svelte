@@ -94,7 +94,6 @@
 </section>
 
 <style lang="scss">
-	@use 'node_modules/@iroco/ui/dist/scss/colors';
 	@use 'node_modules/@iroco/ui/dist/scss/constants';
 	@import 'node_modules/@iroco/ui/dist/scss/containers';
 	@import 'node_modules/@iroco/ui/dist/scss/button';
