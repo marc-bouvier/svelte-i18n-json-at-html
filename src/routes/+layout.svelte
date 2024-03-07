@@ -1,6 +1,6 @@
 <script>
 	import '../i18n';
-	import { _, isLoading } from 'svelte-i18n';
+	import { _ } from 'svelte-i18n';
 	import { Navigation, NavigationItem } from '@iroco/ui';
 	import Footer from '../lib/Footer.svelte';
 	import { base } from '$app/paths';
@@ -8,7 +8,6 @@
 	import '../colors.scss';
 </script>
 
-{#if !$isLoading}
 	<header>
 		<Navigation
 			title={$_('page.title')}
@@ -23,7 +22,6 @@
 		<slot />
 	</main>
 	<Footer>TODO contact</Footer>
-{/if}
 
 <style lang="scss">
 	@use '../app';
