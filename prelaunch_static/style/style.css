@@ -6,9 +6,6 @@ body {
 		100% Arial,
 		sans-serif;
 	padding: 5rem;
-	h1 {
-		color: #d39700;
-	}
 }
 
 main {
@@ -20,6 +17,9 @@ main {
 	max-width: 800px;
 	text-align: center;
 	border-radius: 10px 10px 0 0;
+	h1 {
+		color: #d39700;
+	}
 }
 
 footer {
