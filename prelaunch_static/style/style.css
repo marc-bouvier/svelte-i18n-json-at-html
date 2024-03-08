@@ -1,12 +1,16 @@
 body {
-	color: #333;
+	color: #103302;
 	background-image: url('../img/rod-long-zacVDX85Lfo-unsplash_1920px.jpg');
 	background-size: cover;
 	font:
 		100% Arial,
 		sans-serif;
 	padding: 5rem;
+	h1 {
+		color: #d39700;
+	}
 }
+
 main {
 	background-color: rgba(255, 255, 255, 0.8);
 	padding: 5rem;
@@ -15,9 +19,11 @@ main {
 	margin-right: auto;
 	max-width: 800px;
 	text-align: center;
+	border-radius: 10px 10px 0 0;
 }
+
 footer {
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.5);
 	padding: 5rem;
 	padding-bottom: 2.5rem;
 	font-size: smaller;
@@ -25,7 +31,18 @@ footer {
 	margin-right: auto;
 	max-width: 800px;
 	text-align: right;
+	border-radius: 0 0 10px 10px;
 }
+
 a {
 	color: #0033cc;
+}
+
+@media (max-width: 500px) {
+	body {
+		padding: 2em;
+	}
+	main {
+		padding: 1rem;
+	}
 }
