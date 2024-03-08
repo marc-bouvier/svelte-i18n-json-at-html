@@ -8,20 +8,20 @@
 	import '../colors.scss';
 </script>
 
-	<header>
-		<Navigation
-			title={$_('page.title')}
-			navigationItems={[
-				new NavigationItem($_('header.about'), `${base}/about`),
-				new NavigationItem($_('header.faq'), `${base}/faq`)
-			]}
-			type="topbar"
-		/>
-	</header>
-	<main class="main">
-		<slot />
-	</main>
-	<Footer>TODO contact</Footer>
+<header>
+	<Navigation
+		title={$_('page.title')}
+		navigationItems={[
+			new NavigationItem($_('header.about'), `${base}/about`),
+			new NavigationItem($_('header.faq'), `${base}/faq`)
+		]}
+		type="topbar"
+	/>
+</header>
+<main class="main">
+	<slot />
+</main>
+<Footer>TODO contact</Footer>
 
 <style lang="scss">
 	@use '../app';
