@@ -2,11 +2,14 @@
 	"header": {
 		"project": "Le projet",
 		"values": "Les valeurs",
-		"about": "À propos",
-		"faq": "FAQ"
+		"faq": "FAQ",
+		"support": "Accompagner",
+		"training": "Former",
+		"inspire": "Inspirer",
+		"about": "Nous connaître"
 	},
 	"about": {
-		"title": "À propos"
+		"title": "Nous connaître"
 	},
 	"page": {
 		"title": "Rezofora"

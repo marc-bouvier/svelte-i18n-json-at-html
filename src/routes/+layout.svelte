@@ -12,10 +12,10 @@
 	<Navigation
 		title={$_('page.title')}
 		navigationItems={[
-			new NavigationItem($_('header.project'), `${base}/project`),
-			new NavigationItem($_('header.values'), `${base}/values`),
-			new NavigationItem($_('header.about'), `${base}/about`),
-			new NavigationItem($_('header.faq'), `${base}/faq`)
+			new NavigationItem($_('header.support'), `${base}/support`),
+			new NavigationItem($_('header.training'), `${base}/training`),
+			new NavigationItem($_('header.inspire'), `${base}/inspire`),
+			new NavigationItem($_('header.about'), `${base}/about`)
 		]}
 		type="topbar"
 	/>

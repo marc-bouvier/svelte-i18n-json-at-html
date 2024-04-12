@@ -36,7 +36,6 @@
 				<li><a href="{base}/sitemap">{$_('footer.other.sitemap')}</a></li>
 				<li><a href="{base}/legal">{$_('footer.other.legal')}</a></li>
 				<li><a href="{base}/faq">{$_('footer.other.faq')}</a></li>
-				<li><a href="{base}/terms">{$_('footer.other.terms')}</a></li>
 			</ul>
 		</div>
 	</div>
