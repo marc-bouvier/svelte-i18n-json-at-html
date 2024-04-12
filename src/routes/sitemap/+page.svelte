@@ -1,6 +1,7 @@
 <script>
 import { _ } from 'svelte-i18n';
 import { sitemap } from '../../sitemap';
+import { base } from '$app/paths';
 
 </script>
 
@@ -13,7 +14,7 @@ import { sitemap } from '../../sitemap';
 		<h1>{$_('sitemap.title')}</h1>
 		<ul>
 		{#each Object.keys(sitemap) as page}
-				<li><a href={page}>{page}</a></li>
+				<li><a href={base + page}>{page}</a></li>
 		{/each}
 		</ul>
 	</section>
