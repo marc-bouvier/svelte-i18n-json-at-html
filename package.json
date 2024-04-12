@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+		"clean": "rm -rf .svelte-kit build && npm cache clean --force",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -40,7 +41,8 @@
 	"dependencies": {
 		"@iroco/ui": "next",
 		"svelte-awesome": "^3.3.1",
-		"svelte-i18n": "^4.0.0"
+		"svelte-i18n": "^4.0.0",
+		"sveltekit-sitemap": "^1.0.21"
 	},
 	"type": "module"
 }

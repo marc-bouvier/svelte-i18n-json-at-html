@@ -12,6 +12,8 @@
 	<Navigation
 		title={$_('page.title')}
 		navigationItems={[
+			new NavigationItem($_('header.project'), `${base}/project`),
+			new NavigationItem($_('header.values'), `${base}/values`),
 			new NavigationItem($_('header.about'), `${base}/about`),
 			new NavigationItem($_('header.faq'), `${base}/faq`)
 		]}

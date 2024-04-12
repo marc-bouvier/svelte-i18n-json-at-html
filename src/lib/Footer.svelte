@@ -33,6 +33,7 @@
 		<div class="footer__other">
 			<h1>{$_('footer.menu.title')}</h1>
 			<ul class="no-bullet">
+				<li><a href="{base}/sitemap">{$_('footer.other.sitemap')}</a></li>
 				<li><a href="{base}/legal">{$_('footer.other.legal')}</a></li>
 				<li><a href="{base}/faq">{$_('footer.other.faq')}</a></li>
 				<li><a href="{base}/terms">{$_('footer.other.terms')}</a></li>

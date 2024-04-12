@@ -1,5 +1,7 @@
 {
 	"header": {
+		"project": "The project",
+		"values": "Our values",
 		"about": "About"
 	},
 	"about": {
@@ -7,6 +9,9 @@
 	},
 	"page": {
 		"title": "Rezofora"
+	},
+	"sitemap": {
+		"title": "Sitemap"
 	},
 	"footer": {
 		"mailto": "Send us an email",
@@ -23,6 +28,7 @@
 			"commitment": "Commitment"
 		},
 		"other": {
+			"sitemap": "Sitemap",
 			"title": "And also",
 			"blog": "Blog & News",
 			"doc": "Documentation",
