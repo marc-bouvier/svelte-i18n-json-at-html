@@ -70,8 +70,9 @@
 	<article lang="en">
 		<h2>Under construction</h2>
 		<p>You've reached the website of Rezofora, the sustainability & green IT consulting firm.</p>
-		<p>We'll be back very soon with a brand-new website.</p>
+	<p>We'll be back very soon with a brand-new website.</p>
 	</article>
+	<a id="addr" href=""></a>
 </main>
 <footer>
 	<div>
@@ -100,4 +101,10 @@
 	</div>
 </footer>
 </body>
+<script>
+	var encEmail = "Y29udGFjdEByZXpvZm9yYS5jbwo=";
+	const m = document.getElementById("addr");
+	m.setAttribute("href", "mailto:".concat(atob(encEmail)));
+	m.textContent = atob(encEmail);
+</script>
 </html>
