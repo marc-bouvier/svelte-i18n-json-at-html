@@ -1,7 +1,12 @@
 /* Inter font */
-:root { font-family: 'Inter', sans-serif; }
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
 @supports (font-variation-settings: normal) {
-    :root { font-family: 'Inter var', sans-serif; }
+    :root {
+        font-family: 'Inter var', sans-serif;
+    }
 }
 
 /* Les noms des classes ne sont pas définitifs */
@@ -29,6 +34,10 @@
 .rose {
 
     color: #E7BAC3;
+}
+
+body {
+    margin: 0;
 }
 
 .header-skip-content {
@@ -79,4 +88,36 @@
     flex-grow: 1;
     text-align: center;
     padding: 1em;
+}
+
+
+.hero {
+    padding: 2rem 0;
+    padding-bottom: 4rem;
+    background-color: #0e635d;;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-content > h1 {
+    color: #E6AC2A;
+    margin-top: 0;
+}
+
+.hero-content > p {
+    color: white;
+    max-width: 20rem;
+}
+
+
+.hero > div {
+    border-left: #E6AC2A solid 6px;
+    padding-left: 1rem;
+    width: 28rem;
+}
+
+.hero > img {
+    width: 12rem;
 }
