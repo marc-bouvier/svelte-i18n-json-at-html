@@ -24,3 +24,26 @@
 
     color: #E7BAC3;
 }
+
+.header-skip-content {
+    position: absolute;
+    top: .125em;
+    left: .125em;
+    z-index: 1001;
+    text-align: center;
+    background-color: #0e635d; /* vert foncé */
+    color:  #B0D2BC; /* vert clair */
+}
+
+.header-skip-content a:focus {
+    display: inline-block;
+    cursor: pointer;
+    padding: .5em;
+    color:  #B0D2BC; /* vert clair */
+}
+
+.header-skip-content a:not(:focus) {
+    clip: rect(0 0 0 0);
+    position: absolute;
+    overflow: hidden;
+}
