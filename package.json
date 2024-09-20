@@ -13,7 +13,8 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"deploy": "vite build && gh-pages -d build -t true",
-		"deploy-prelaunch": "gh-pages -d prelaunch_static -t true"
+		"deploy-prelaunch": "gh-pages -d prelaunch_static -t true",
+		"deploy-new-design": "gh-pages -d new_design_static -t true"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.1.1",
