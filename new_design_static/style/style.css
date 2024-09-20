@@ -1,3 +1,9 @@
+/* Inter font */
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+    :root { font-family: 'Inter var', sans-serif; }
+}
+
 /* Les noms des classes ne sont pas définitifs */
 .vert-fonce {
     color: #0e635d;
