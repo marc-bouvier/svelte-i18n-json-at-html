@@ -55,11 +55,10 @@
 }
 
 .menu > .brand-logo {
-    width: 5rem;
+    width: 14rem;
     margin-bottom: 2rem;
     max-height: 6em;
     aspect-ratio: 1;
-    flex-grow: .25;
 }
 
 .menu > .items {
@@ -73,5 +72,5 @@
     flex-wrap: wrap;
     flex-grow: 1;
     text-align: center;
-    padding: 1em 0;
+    padding: 1em;
 }
