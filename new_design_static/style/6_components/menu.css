@@ -1,0 +1,44 @@
+/* Main navigation menu */
+/* Markup example :
+nav.menu
+    a.brand-logo
+        img
+    div.items
+        a
+        a
+        a
+ */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    margin-top: 0;
+}
+
+.menu > .brand-logo {
+    width: 16rem;
+    margin-bottom: 2rem;
+    height: 8em;
+    aspect-ratio: 1;
+}
+
+.menu > .items {
+    margin-top: 1.5rem;
+    padding: 0 3rem;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.menu > .items > a {
+    flex-grow: 1;
+    text-align: center;
+    color: var(--DarkGreen);
+    font-weight: bold;
+    font-size: 1.125rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*17:1  ✖  Descendant classes should always be prefixed. `.menu > .brand-logo`  selector-disallowed-list*/
+/*24:1  ✖  Descendant classes should always be prefixed. `.menu > .items`       selector-disallowed-list*/
+/*32:1  ✖  Descendant classes should always be prefixed. `.menu > .items > a`   selector-disallowed-list*/
