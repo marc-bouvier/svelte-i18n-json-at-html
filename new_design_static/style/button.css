@@ -1,0 +1,10 @@
+
+button {
+    padding: .4rem 1.4rem;
+    width: fit-content;
+    background-color: #156968;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+}
+

@@ -1,0 +1,19 @@
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.cards > .card {
+    margin: -3rem 1.5rem;
+    padding: 2rem;
+    width: 12rem;
+    background-color: #FDF6ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

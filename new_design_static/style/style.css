@@ -9,9 +9,34 @@
     }
 }
 
+
+.couleur-vert-hexa {
+    color: #222221;
+}
+
+.couleur-vert-rgb {
+    color: rgb(21, 105, 1104);
+}
+
+.couleur-vert-hexa-1 {
+    color: #156968;
+}
+
+
+.couleur-vert-hexa-2 {
+    color: #15696EFF;
+}
+
+
+.couleur-vert-rgb {
+    color: rgb(21, 105, 110);
+}
+
+
 /* Les noms des classes ne sont pas définitifs */
 .vert-fonce {
-    color: #0e635d;
+    /*color: #0e635d;*/
+    color: #156968;
 }
 
 .vert-clair {
@@ -40,121 +65,3 @@ body {
     margin: 0;
 }
 
-
-.header-skip-content {
-    position: absolute;
-    top: .125em;
-    left: .125em;
-    z-index: 1001;
-    text-align: center;
-    background-color: #0e635d; /* vert foncé */
-    color: #B0D2BC; /* vert clair */
-}
-
-.header-skip-content a:focus {
-    display: inline-block;
-    cursor: pointer;
-    padding: .5em;
-    color: #B0D2BC; /* vert clair */
-}
-
-.header-skip-content a:not(:focus) {
-    clip: rect(0 0 0 0);
-    position: absolute;
-    overflow: hidden;
-}
-
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 2rem;
-}
-
-.menu > .brand-logo {
-    width: 16rem;
-    margin-bottom: 2rem;
-    max-height: 6em;
-    aspect-ratio: 1;
-}
-
-.menu > .items {
-    margin-top: 1.5rem;
-    padding: 0 3rem;
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-}
-
-.menu > .items > a {
-    flex-grow: 1;
-    text-align: center;
-    padding: 1em 2em;
-    color: #0e635d;
-    font-weight: bold;
-    font-size: 1.125em;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-
-.hero {
-    padding: 2rem 0;
-    padding-bottom: 4rem;
-    background-color: #0e635d;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.hero-content > h1 {
-    color: #E6AC2A;
-    margin-top: 0;
-
-    font-size: 2.5rem;
-}
-
-.hero-content > p {
-    color: white;
-    max-width: 26rem;
-    font-size: larger;
-}
-
-
-.hero > div {
-    border-left: #E6AC2A solid 6px;
-    padding-left: 1rem;
-    width: 36rem;
-}
-
-.hero > img {
-    width: 12rem;
-}
-
-.cards {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: center;
-}
-
-.cards > .card {
-    margin: -3rem 1.5rem;
-    padding: 2rem;
-    width: 12rem;
-    background-color: #FDF6ED;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-button{
-    padding: .4rem 1.4rem;
-    width: fit-content;
-    background-color: #0e635d;
-    color: white;
-    font-family: 'Inter', sans-serif;
-    font-weight: lighter;
-}
-}

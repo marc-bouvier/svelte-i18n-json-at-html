@@ -1,0 +1,23 @@
+.header-skip-to-content {
+    position: absolute;
+    top: .125em;
+    left: .125em;
+    z-index: 1001;
+    text-align: center;
+    background-color: #156968; /* vert foncé */
+    color: #B0D2BC; /* vert clair */
+}
+
+.header-skip-to-content a:focus {
+    display: inline-block;
+    cursor: pointer;
+    padding: .5em;
+    color: #B0D2BC; /* vert clair */
+}
+
+.header-skip-to-content a:not(:focus) {
+    clip: rect(0 0 0 0);
+    position: absolute;
+    overflow: hidden;
+}
+
