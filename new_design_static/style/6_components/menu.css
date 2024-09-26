@@ -19,7 +19,7 @@ nav.menu
 .menu > .brand-logo {
     width: 16rem;
     margin-bottom: 0;
-    height: 5em;
+    height: 6em;
     aspect-ratio: 1;
     flex-grow: 1;
 }
