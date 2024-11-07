@@ -11,10 +11,10 @@ import { base } from '$app/paths';
 			<img alt="Logo Rezofora" src="{base}/img/Logo-Rezofora-H-RVB.svg" />
 		</a>
 		<div class="items">
-			<a href="#">Accompagner</a>
-			<a href="#">Former</a>
-			<a href="#">Inspirer</a>
-			<a href="#" class="about">Nous connaître</a>
+			<a href="{base}/coaching">Accompagner</a>
+			<a href="{base}/training">Former</a>
+			<a href="{base}/inspire">Inspirer</a>
+			<a href="{base}/about" class="about">Nous connaître</a>
 		</div>
 	</nav>
 </header>
