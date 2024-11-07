@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>{$_('legal.title')}</title>
+	<title>{$_('header.coaching')}</title>
 </svelte:head>
 
-<h2>{$_('legal.title')}</h2>
+<h2>{$_('header.coaching')}</h2>

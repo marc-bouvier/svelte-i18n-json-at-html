@@ -6,17 +6,4 @@
 	<title>{$_('header.training')}</title>
 </svelte:head>
 
-<div class="training">
-	<section class="training__fresques">
-		<h1>Détail des fresques proposées</h1>
-		<p>{$_('temp.lipsum')}</p>
-	</section>
-	<section class="training__foo">
-		<h1>Détail ...</h1>
-		<p>{$_('temp.lipsum')}</p>
-	</section>
-	<section class="training__foo">
-		<h1>Détail ...</h1>
-		<p>{$_('temp.lipsum')}</p>
-	</section>
-</div>
+<h2>{$_('header.training')}</h2>
