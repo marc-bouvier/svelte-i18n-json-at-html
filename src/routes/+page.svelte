@@ -89,6 +89,7 @@
 	<header>
 		<h2>Comment l’intégrer dans votre entreprise ?</h2>
 	</header>
+	<p>Avec la double expertise entreprise et numérique responsable, Rezofora offre des services articulés autour de sujets clés et complémentaires pour la suite de l'entreprise.</p>
 	<img src="{base}/img/expertises.drawio.svg" />
 </section>
 
