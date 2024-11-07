@@ -19,31 +19,41 @@
 </section>
 <section class="cards">
 	<div class="card">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eros lacus, commodo eu tristique non, ultricies eu
-			tellus. Nulla facilisi. Integer a tincidunt purus. Proin vulputate tristique magna. Aliquam id eros id ante
-			malesuada interdum. Phasellus tristique ac leo at fringilla.
-		</p>
-		<button>Je découvre</button>
+		<header>
+			<h2>Conseil et accompagnement</h2>
+		</header>
+		<div class="card__content">
+			<p>Démarches RSE et numérique responsable;</p>
+			<p>Reporting de durabilité CSRD et analyse de double matérialité</p>
+			<p>Eco-conception numérique;</p>
+			<p>Logiciel libre et communs numériques;</p>
+		</div>
 	</div>
 	<div class="card">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eros lacus, commodo eu tristique non, ultricies eu
-			tellus. Nulla facilisi. Integer a tincidunt purus. Proin vulputate tristique magna. Aliquam id eros id ante
-			malesuada interdum. Phasellus tristique ac leo at fringilla. Cras a viverra nibh, vitae rutrum ante. Sed
-			pharetra
-			nibh ac velit dignissim ornare sed accumsan lacus.
-			lectus.
-		</p>
-		<button>Je découvre</button>
+		<header>
+			<h2>Formation et sensibilisation</h2>
+		</header>
+		<div class="card__content">
+			<p>
+				Formations sur catalogue et sur mesure : CSRD, RSE, éco-conception
+			</p>
+			<p>Ateliers :
+				Fresque du Climat,
+				Fresque du Numérique,
+				Fresque des Low-tech
+			</p>
+			<p>Ateliers sur mesure</p>
+		</div>
 	</div>
 	<div class="card">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eros lacus, commodo eu tristique non, ultricies eu
-			tellus. Nulla facilisi. Integer a tincidunt purus. Proin vulputate tristique magna. Aliquam id eros id ante
-			malesuada interdum. Phasellus tristique ac leo at fringilla.
-		</p>
-		<button>Je découvre</button>
+		<header>
+			<h2>Inspiration et nouveaux modèles</h2>
+		</header>
+		<div class="card__content">
+			<p>Learning expeditions</p>
+			<p>Ateliers prospective & fiction</p>
+			<p>Ateliers expérientiels</p>
+		</div>
 	</div>
 </section>
 <section class="title-and-text as-tertiary">
