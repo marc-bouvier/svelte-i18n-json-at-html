@@ -4,6 +4,7 @@
 	import '../colors.scss';
 	import Header from '$lib/Header.svelte';
 	import { base } from '$app/paths';
+	import Footer from '$lib/Footer.svelte';
 </script>
 <svelte:head>
 	<link rel="preconnect" href="{base}/">
@@ -80,42 +81,4 @@
 <main id="main" role="main">
 	<slot />
 </main>
-<footer>
-	<div>
-		<nav aria-label="Liens de contact">
-			<header>
-				<h2>Nous contacter</h2>
-			</header>
-			<ul>
-				<li><a href="#">Envoyez nous un email</a></li>
-				<li><a href="#">Infolettre</a></li>
-			</ul>
-			<div class="social-media">
-				<a href="https://github.com/iroco-co/rezofora">Github</a>
-				<a href="https://www.linkedin.com/company/rezofora/posts/?feedView=all">LinkedIn</a>
-				<a href="#">Bluesky</a>
-				<a href="#">Mastodon</a>
-			</div>
-		</nav>
-		<nav aria-label="Autres liens">
-			<header>
-				<h2>Menu</h2>
-			</header>
-			<ul>
-				<li><a href="https://jobs.makesense.org/en/projects/iroco-364">Postuler</a></li>
-				<li><a href="https://blog.iroco.co">Blog & Actualités</a></li>
-				<li><a href="https://iroco.co">Iroco</a></li>
-				<li><a href="#">Mentions Légales</a></li>
-				<li><a href="#">Foire Aux Questions</a></li>
-				<li><a href="#">Conditions Générales de Vente</a></li>
-			</ul>
-		</nav>
-	</div>
-	<p class="copyright">
-		© 2024 Rezofora. Tous droits réservés.
-	</p>
-</footer>
-
-<style lang="scss">
-
-</style>
+<Footer></Footer>
