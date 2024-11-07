@@ -13,7 +13,7 @@
 		"test": "vitest",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"deploy": "vite build && gh-pages -d build -t true",
+		"deploy": "vite build  --base=https://iroco-co.github.io/rezofora/ && gh-pages -d build -t true",
 		"deploy-prelaunch": "gh-pages -d prelaunch_static -t true",
 		"deploy-new-design": "gh-pages -d new_design_static -t true"
 	},
