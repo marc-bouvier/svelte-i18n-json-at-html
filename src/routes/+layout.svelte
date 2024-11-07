@@ -78,7 +78,7 @@
 	<meta name="description" content="Rezofora, conseil et accompagnement en numérique responsable.">
 </svelte:head>
 <Header></Header>
-<main id="main" role="main">
+<main id="main">
 	<slot />
 </main>
 <Footer></Footer>
