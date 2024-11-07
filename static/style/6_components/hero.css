@@ -1,5 +1,5 @@
 .hero {
-    background-color: #156968;
+    background-color: var(--DarkGreen);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -8,7 +8,7 @@
 }
 
 .hero > .hero-content {
-    border-left: #E6AC2A solid 6px;
+    border-left: var(--Orange) solid 6px;
     padding-left: 1rem;
     /*width: 20rem;*/
 }

@@ -10,7 +10,7 @@
     margin: -2rem 1.5rem 3rem;
     padding: 2rem;
     width: auto;
-    background-color: #FDF6ED;
+    background-color: var(--LightOrange);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
