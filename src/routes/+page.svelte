@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -56,59 +57,38 @@
 		</div>
 	</div>
 </section>
+<section class="title-and-text  as-secondary">
+	<header>
+		<h2>Notre philosophie</h2>
+	</header>
+	<p>
+		Nous avons la conviction que l’urgence écologique et sociale nécessite d'agir rapidement et concrètement pour
+		<strong>transformer les modèles économiques</strong> : l'organisation de demain existera à l'intérieur des limites
+		planétaires ou
+		n'existera pas.
+	</p>
+	<p>
+		Pour accompagner nos partenaires dans les transformations nécessaires, nous déployons des approches complémentaires
+		: <strong>stratégiques</strong>, pour comprendre et piloter les enjeux ; <strong>techniques</strong>, pour mettre en
+		oeuvre et outiller ;
+		<strong>pédagogiques</strong>, pour transmettre et autonomiser.
+	</p>
+	<p>
+		La philosophie qui nous porte est celle des <strong>communs</strong>, numériques ou non, car la coopération et
+		l'entraide sont au
+		coeur des enjeux de résilience et de durabilité. C'est également celle de la sobriété, car la transition ne peut
+		advenir sans une remise en question de nos besoins, de nos usages et de nos manières de faire. C'est enfin celle de
+		la <strong>joie</strong>, car nous sommes convaincus qu'un monde durable est un monde heureux, riche de liens,
+		d'expériences et de
+		sens.
+	</p>
+
+</section>
+
 <section class="title-and-text as-tertiary">
 	<header>
-		<h2>Comment l’intégrer dans votre entreprise ?</h2>
+		<h2>Comment l’intégrer dans votre entreprise ?</h2>
 	</header>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eros lacus, commodo eu tristique non, ultricies eu
-		tellus. Nulla facilisi. Integer a tincidunt purus. Proin vulputate tristique magna. Aliquam id eros id ante
-		malesuada interdum. Phasellus tristique ac leo at fringilla. Cras a viverra nibh, vitae rutrum ante. Sed
-		pharetra
-	</p>
-	<p>
-		nibh ac velit dignissim ornare sed accumsan lacus. Vestibulum tincidunt purus sapien, ac dapibus sem semper a.
-		Nullam venenatis vestibulum risus id molestie. Aliquam facilisis nunc at nunc aliquam hendrerit. Etiam sodales
-		sodales lectus, ut suscipit lacus vehicula nec. Proin vel magna sed orci condimentum ornare in a odio. In varius
-		eu
-		augue eget tincidunt. Ut quis porttitor nulla. Nulla leo nunc, efficitur non ipsum vel, tincidunt auctor lectus.
-	</p>
+	<img src="{base}/img/expertises.drawio.svg" />
 </section>
 
-<section class="title-and-text as-primary">
-	<header>
-		<h2>Comment l’intégrer dans votre entreprise ?</h2>
-	</header>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eros lacus, commodo eu tristique non, ultricies eu
-		tellus. Nulla facilisi. Integer a tincidunt purus. Proin vulputate tristique magna. Aliquam id eros id ante
-		malesuada interdum. Phasellus tristique ac leo at fringilla. Cras a viverra nibh, vitae rutrum ante. Sed
-		pharetra
-	</p>
-	<p>
-		nibh ac velit dignissim ornare sed accumsan lacus. Vestibulum tincidunt purus sapien, ac dapibus sem semper a.
-		Nullam venenatis vestibulum risus id molestie. Aliquam facilisis nunc at nunc aliquam hendrerit. Etiam sodales
-		sodales lectus, ut suscipit lacus vehicula nec. Proin vel magna sed orci condimentum ornare in a odio. In varius
-		eu
-		augue eget tincidunt. Ut quis porttitor nulla. Nulla leo nunc, efficitur non ipsum vel, tincidunt auctor lectus.
-	</p>
-</section>
-
-<section class="title-and-text as-secondary">
-	<header>
-		<h2>Comment l’intégrer dans votre entreprise ?</h2>
-	</header>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eros lacus, commodo eu tristique non, ultricies eu
-		tellus. Nulla facilisi. Integer a tincidunt purus. Proin vulputate tristique magna. Aliquam id eros id ante
-		malesuada interdum. Phasellus tristique ac leo at fringilla. Cras a viverra nibh, vitae rutrum ante. Sed
-		pharetra
-	</p>
-	<p>
-		nibh ac velit dignissim ornare sed accumsan lacus. Vestibulum tincidunt purus sapien, ac dapibus sem semper a.
-		Nullam venenatis vestibulum risus id molestie. Aliquam facilisis nunc at nunc aliquam hendrerit. Etiam sodales
-		sodales lectus, ut suscipit lacus vehicula nec. Proin vel magna sed orci condimentum ornare in a odio. In varius
-		eu
-		augue eget tincidunt. Ut quis porttitor nulla. Nulla leo nunc, efficitur non ipsum vel, tincidunt auctor lectus.
-	</p>
-</section>
