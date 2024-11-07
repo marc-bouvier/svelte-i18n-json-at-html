@@ -7,7 +7,7 @@ import { base } from '$app/paths';
 		<a href="#main">Contenu</a>
 	</nav>
 	<nav aria-label="Menu" class="menu">
-		<a href="#" class="brand-logo">
+		<a href="{base}/" class="brand-logo">
 			<img alt="Logo Rezofora" src="{base}/img/Logo-Rezofora-H-RVB.svg" />
 		</a>
 		<div class="items">
