@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n';
 	import { base } from '$app/paths';
+	import TeamMember from '$lib/TeamMember.svelte';
 </script>
 
 <svelte:head>
@@ -89,7 +90,50 @@
 	<header>
 		<h2>Comment l’intégrer dans votre entreprise ?</h2>
 	</header>
-	<p>Avec la double expertise entreprise et numérique responsable, Rezofora offre des services articulés autour de sujets clés et complémentaires pour la suite de l'entreprise.</p>
+	<p>Avec la double expertise entreprise et numérique responsable, Rezofora offre des services articulés autour de
+		sujets clés et complémentaires pour la suite de l'entreprise.</p>
 	<img src="{base}/img/expertises.drawio.svg" />
 </section>
 
+
+<section class="title-and-text as-secondary">
+	<header>
+		<h2>Nos atouts</h2>
+	</header>
+</section>
+
+<section class="title-and-text as-tertiary">
+	<header>
+		<h2>Ils nous font confiance</h2>
+	</header>
+</section>
+
+<section class="title-and-text as-primary">
+	<header>
+		<h2>Nous connaître</h2>
+	</header>
+	<TeamMember
+		name="Bruno Thomas"
+		topic="Développement informatique"
+		bio="Foo"
+		picture="{base}/img/teammate-placeholder.png"
+	/>
+	<TeamMember
+		name="Adeline Agut"
+		topic="Développement durable"
+		bio="Foo"
+		picture="{base}/img/teammate-placeholder.png"
+	/>
+	<TeamMember
+		name="Marc Bouvier"
+		topic="Développement informatique"
+		bio="Foo"
+		picture="{base}/img/teammate-placeholder.png"
+	/>
+	<TeamMember
+		name="Elise Martin"
+		topic="Développement durable"
+		bio="Foo"
+		picture="{base}/img/teammate-placeholder.png"
+	/>
+</section>
