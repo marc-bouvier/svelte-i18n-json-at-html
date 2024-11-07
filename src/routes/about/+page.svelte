@@ -5,7 +5,6 @@
 <svelte:head>
 	<title>{$_('header.about')}</title>
 </svelte:head>
-<h2>{$_('header.training')}</h2>
 <div class="about">
 	<section class="about__values">
 		<h1>{$_('header.values')}</h1>
