@@ -101,6 +101,7 @@
 	<header>
 		<h2>Nos atouts</h2>
 	</header>
+	<img src="{base}/img/todo-delete-me-atouts-placeholder.png" width="60%" />
 </section>
 
 <section class="title-and-text as-tertiary">
@@ -118,7 +119,7 @@
         grid-column-gap: 1.5rem;
         grid-row-gap: 1.5rem;
 ">
-<!--		https://inclusive-components.design/cards/-->
+		<!--		https://inclusive-components.design/cards/-->
 		<TeamMember
 			name="Bruno Thomas"
 			topic="Développement informatique"
