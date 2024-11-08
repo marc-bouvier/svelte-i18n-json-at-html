@@ -98,6 +98,30 @@
 		<h2>Nos atouts</h2>
 	</header>
 	<img src="{base}/img/todo-delete-me-atouts-placeholder.png" width="60%" />
+
+	<div class="quadrant">
+		<p>
+			<strong>Une exigence technique forte,
+				portée par une équipe expérimentée</strong>
+			qui maîtrise les notions, outils et référentiels incontournables
+		</p>
+		<p>
+			<strong>Des compétences multidisciplinaires</strong>
+			— RSE, numérique, développement informatique, stratégie, formation
+			— pour mener à bien des projets complexes.
+		</p>
+		<p>
+			<strong>L'ambition d'amener nos clients plus loin</strong>
+			et de les aider à réfléchir aux changements de modèles souhaitables
+			pour une soutenabilité réelle
+		</p>
+		<p>
+			<strong>La capacité à accompagner</strong>
+			— au sens le plus noble du terme
+			— et autonomiser nos clients sur des enjeux cruciaux,
+			avec bienveillance et pédagogie
+		</p>
+	</div>
 </section>
 
 <section class="title-and-text as-tertiary">
