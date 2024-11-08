@@ -2,6 +2,7 @@
 
 - Site live : https://rezofora.co
 - Site en preview sur Github pages : https://iroco-co.github.io/rezofora/
+- [Design visuel](design-visuel)
 
 ## Developing
 
