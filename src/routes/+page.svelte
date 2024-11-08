@@ -146,7 +146,7 @@
 			name="Bruno Thomas"
 			topic="Développement informatique"
 			bio="Informaticien depuis 25 ans, je me suis intéressé dèsn le début à l'open source et à l'artisanat logiciel. Le passage par une ESN m'a questionné sur l'utilité des applications qu'on y développait. J'ai repris goût à ce que je faisais grâce à l'apprentissage de l'agilité et du lean et j'ai été développeur coach chez Orange. J'ai depuis pris conscience de l'importance de l'impact de l'informatique sur les enjeux environnementaux et me suis spécialisé en éco-conception logicielle."
-			picture="{base}/img/teammate-placeholder.png"
+			picture="{base}/img/team-members/bt_360-360-px.jpg"
 		/>
 		<TeamMember
 			name="Adeline Agut"
@@ -158,7 +158,7 @@
 			name="Marc Bouvier"
 			topic="Développement informatique - Facilitation"
 			bio="Développeur logiciel depuis plus de 12 ans, mon constat est simple : le logiciel est omniprésent dans nos vies et nous ne pouvons pas ignorer ses effets sur les individus, les groupes et l'écosystème fini qu'est notre planète. Je reste fasciné par l'incroyable impact que peuvent avoir quelques lignes de code informatique. Pour moi, les communs numériques frugaux, conviviaux et accessibles sont des outils au fort potentiel émancipateur pour faire face l’urgence planétaire. J'agis en accompagnant les entreprises, en animant des communautés, en contribuant à l'Open-source, en facilitant des ateliers d'intelligence collective et par le partage de connaissances."
-			picture="{base}/img/teammate-placeholder.png"
+			picture="{base}/img/team-members/mb_360-360-px.jpeg"
 		/>
 		<TeamMember
 			name="Elise Martin"
@@ -168,3 +168,12 @@
 		/>
 	</ul>
 </section>
+
+<style>
+	.quadrant{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+	}
+</style>
