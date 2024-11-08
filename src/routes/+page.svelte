@@ -152,19 +152,19 @@
 			name="Adeline Agut"
 			topic="Développement durable"
 			bio="Ingénieur de formation, je travaille depuis plus de 10 ans dans le domaine de l'environnement et du développement durable. J'ai travaillé aussi bien pour des start-ups que pour des grands groupes. Mon rôle est d'accompagner les organisations dans leur transition vers des modèles plus durables, en adéquation avec les défis climatiques et environnementaux axquels nous faisons face."
-			picture="{base}/img/teammate-placeholder.png"
+			picture="{base}/img/team-members/aa_360-360-px.jpg"
 		/>
 		<TeamMember
 			name="Marc Bouvier"
 			topic="Développement informatique - Facilitation"
 			bio="Développeur logiciel depuis plus de 12 ans, mon constat est simple : le logiciel est omniprésent dans nos vies et nous ne pouvons pas ignorer ses effets sur les individus, les groupes et l'écosystème fini qu'est notre planète. Je reste fasciné par l'incroyable impact que peuvent avoir quelques lignes de code informatique. Pour moi, les communs numériques frugaux, conviviaux et accessibles sont des outils au fort potentiel émancipateur pour faire face l’urgence planétaire. J'agis en accompagnant les entreprises, en animant des communautés, en contribuant à l'Open-source, en facilitant des ateliers d'intelligence collective et par le partage de connaissances."
-			picture="{base}/img/team-members/mb_360-360-px.jpeg"
+			picture="{base}/img/team-members/mb_360-360-px.jpg"
 		/>
 		<TeamMember
 			name="Elise Martin"
 			topic="Développement durable"
 			bio="Consultante et bizdev pendant 17 ans en ENS autour de sujets data et startup numériques,  j'ai décidé de mettre en oeuvre mes capacités à comprendre et solutionner les problèmes d'une organisation autour de sujets plus larges que le numérique. Ma compréhension est que tout comme le numérique est passé d'une méthodologie d'optimisation à une méthodologie d'agilité, les organisations peuvent passer de logiques de performances à celles de robustesse tout en mettant en valeur ses talents et ressources"
-			picture="{base}/img/teammate-placeholder.png"
+			picture="{base}/img/team-members/em_360-360-px.jpg"
 		/>
 	</ul>
 </section>
@@ -172,7 +172,7 @@
 <style>
 	.quadrant{
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: 20rem 20rem;
       grid-gap: 10px;
       grid-auto-rows: minmax(100px, auto);
 	}
