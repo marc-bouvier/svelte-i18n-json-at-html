@@ -141,7 +141,7 @@
 	</header>
 </section>
 
-<section id="about"
+<section id="know-us"
 				 class="title-and-text as-primary">
 	<header>
 		<h2>Nous connaître</h2>
