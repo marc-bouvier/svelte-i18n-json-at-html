@@ -7,7 +7,9 @@
 <svelte:head>
 	<title>{$_('page.title')}</title>
 </svelte:head>
-<section class="hero">
+<section
+	id="mission"
+	class="hero">
 	<div class="hero-content">
 		<header>
 			<h1>
@@ -23,7 +25,9 @@
 	</div>
 </section>
 <!--https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Card-->
-<section class="cards">
+<section
+	id="services"
+	class="cards">
 	<div class="card">
 		<header>
 			<h2>Conseil et accompagnement</h2>
@@ -56,7 +60,9 @@
 		</div>
 	</div>
 </section>
-<section class="title-and-text as-secondary">
+<section
+	id="phillosophy"
+	class="title-and-text as-secondary">
 	<header>
 		<h2>Notre philosophie</h2>
 	</header>
@@ -82,7 +88,9 @@
 	</p>
 </section>
 
-<section class="title-and-text as-tertiary">
+<section
+	id="how-to-integrate"
+	class="title-and-text as-tertiary">
 	<header>
 		<h2>Comment l’intégrer dans votre entreprise ?</h2>
 	</header>
@@ -93,7 +101,9 @@
 	<img src="{base}/img/expertises.drawio.svg" />
 </section>
 
-<section class="title-and-text as-secondary">
+<section
+	id="strengths"
+	class="title-and-text as-secondary">
 	<header>
 		<h2>Nos atouts</h2>
 	</header>
@@ -124,13 +134,15 @@
 	</div>
 </section>
 
-<section class="title-and-text as-tertiary">
+<section id="testimonials"
+				 class="title-and-text as-tertiary">
 	<header>
 		<h2>Ils nous font confiance</h2>
 	</header>
 </section>
 
-<section class="title-and-text as-primary">
+<section id="about"
+				 class="title-and-text as-primary">
 	<header>
 		<h2>Nous connaître</h2>
 	</header>
@@ -170,10 +182,10 @@
 </section>
 
 <style>
-	.quadrant{
-      display: grid;
-      grid-template-columns: 20rem 20rem;
-      grid-gap: 10px;
-      grid-auto-rows: minmax(100px, auto);
-	}
+    .quadrant {
+        display: grid;
+        grid-template-columns: 20rem 20rem;
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
 </style>
