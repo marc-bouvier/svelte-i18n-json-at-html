@@ -19,17 +19,20 @@
 	},
 	"footer": {
 		"socialmedia": "Contact",
-		"subscribe": "Ouvrir un compte",
 		"mailto": "Envoyez-nous un mail",
 		"menu": {
 			"title": "Menu"
 		},
 		"other": {
 			"sitemap": "Plan du site",
+			"title": "Et aussi",
+			"blog": "Blog & Actualités",
+			"doc": "Documentation",
+			"job": "Postuler",
 			"terms": "Conditions Générales de Vente",
 			"legal": "Mentions Légales",
 			"faq": "Foire Aux Questions",
-			"copyrights": "© 2023 Iroco. Tous droits réservés."
+			"copyrights": "© 2024 Rezofora. Tous droits réservés."
 		}
 	},
 	"temp": {

@@ -2,6 +2,7 @@
 	"header": {
 		"project": "The project",
 		"values": "Our values",
+		"faq": "FAQ",
 		"support": "Support",
 		"training": "Training",
 		"inspire": "Inspire",
@@ -17,18 +18,10 @@
 		"title": "Sitemap"
 	},
 	"footer": {
-		"mailto": "Send us an email",
 		"socialmedia": "Get in touch",
-		"newsletter": "Newsletter",
-		"email": "Your email address",
-		"invalid_email": "Invalid email address",
+		"mailto": "Send us an email",
 		"menu": {
-			"title": "Menu",
-			"philosophy": "Philosophy",
-			"planet": "Planet",
-			"human": "Human",
-			"app": "Application",
-			"commitment": "Commitment"
+			"title": "Menu"
 		},
 		"other": {
 			"sitemap": "Sitemap",
@@ -39,7 +32,7 @@
 			"terms": "General Terms of Sale",
 			"legal": "Legal Notices",
 			"faq": "Frequently Asked Questions",
-			"copyrights": "© 2023 Iroco. All Rights Reserved."
+			"copyrights": "© 2024 Rezofora. All Rights Reserved."
 		}
 	},
 	"temp": {
@@ -63,7 +56,6 @@
 				},
 				"nowebmail": "For the moment, our offer does not include webmail (yet): you will therefore have to configure an email client, that is to say an existing tool for managing your emails (Thunderbird for example, but there are many others) in order to receive your emails. If needed, you can consult",
 				"configurationquestion": "the question about how to configure your email client",
-				"nowebmailtofollow": " , further down on this page.",
 				"soon": "We are working on the development of our eco-designed webmail and hope to soon be able to put it in your hands!"
 			},
 			"bar": {
