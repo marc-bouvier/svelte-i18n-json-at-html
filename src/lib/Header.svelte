@@ -11,10 +11,10 @@
 			<img alt="Logo Rezofora" src="{base}/img/Logo-Rezofora-H-RVB.svg" />
 		</a>
 		<div class="items">
-			<a href="{base}/coaching">Accompagner</a>
-			<a href="{base}/training">Former</a>
-			<a href="{base}/inspire">Inspirer</a>
-			<a href="{base}/about" class="about">Nous connaître</a>
+			<a href="{base}/#coaching">Accompagner</a>
+			<a href="{base}/#training">Former</a>
+			<a href="{base}/#inspire">Inspirer</a>
+			<a href="{base}/#know-us" class="about">Nous connaître</a>
 		</div>
 	</nav>
 </header>
