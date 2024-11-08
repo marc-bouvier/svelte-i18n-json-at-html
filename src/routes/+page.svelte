@@ -61,7 +61,7 @@
 	</div>
 </section>
 <section
-	id="phillosophy"
+	id="philosophy"
 	class="title-and-text as-secondary">
 	<header>
 		<h2>Notre philosophie</h2>
