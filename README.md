@@ -1,6 +1,8 @@
 # Rezofora
 
-SveltKit Rezofora landing page.
+
+- Site live : https://rezofora.co
+- Site en preview sur Github pages : https://iroco-co.github.io/rezofora/
 
 ## Developing
 
