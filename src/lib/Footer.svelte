@@ -5,8 +5,6 @@
 	import { base } from '$app/paths';
 </script>
 
-
-
 <footer>
 	<div>
 		<nav aria-label="Liens de contact">
@@ -39,7 +37,5 @@
 			</ul>
 		</nav>
 	</div>
-	<p class="copyright">
-		© 2024 Rezofora. Tous droits réservés.
-	</p>
+	<p class="copyright">© 2024 Rezofora. Tous droits réservés.</p>
 </footer>
