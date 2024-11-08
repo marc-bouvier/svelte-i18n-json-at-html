@@ -7,9 +7,7 @@
 <svelte:head>
 	<title>{$_('page.title')}</title>
 </svelte:head>
-<section
-	id="mission"
-	class="hero">
+<section id="mission" class="hero">
 	<div class="hero-content">
 		<header>
 			<h1>
@@ -25,8 +23,7 @@
 	</div>
 </section>
 <!--https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Card-->
-<section id="services"
-				 class="cards">
+<section id="services" class="cards">
 	<div class="card">
 		<header>
 			<h2>Conseil et accompagnement</h2>
@@ -59,8 +56,7 @@
 		</div>
 	</div>
 </section>
-<section id="philosophy"
-				 class="title-and-text as-secondary">
+<section id="philosophy" class="title-and-text as-secondary">
 	<header>
 		<h2>Notre philosophie</h2>
 	</header>
@@ -86,8 +82,7 @@
 	</p>
 </section>
 
-<section id="how-to-integrate"
-				 class="title-and-text as-tertiary">
+<section id="how-to-integrate" class="title-and-text as-tertiary">
 	<header>
 		<h2>Comment l’intégrer dans votre entreprise ?</h2>
 	</header>
@@ -98,8 +93,7 @@
 	<img src="{base}/img/expertises.drawio.svg" />
 </section>
 
-<section id="strengths"
-				 class="title-and-text as-secondary">
+<section id="strengths" class="title-and-text as-secondary">
 	<header>
 		<h2>Nos atouts</h2>
 	</header>
@@ -107,45 +101,40 @@
 	<div class="quadrants">
 		<div class="quadrant">
 			<p>
-				<strong>Une exigence technique forte,
-					portée par une équipe expérimentée</strong>
+				<strong>Une exigence technique forte, portée par une équipe expérimentée</strong>
 				qui maîtrise les notions, outils et référentiels incontournables
 			</p>
 		</div>
 		<div class="quadrant">
 			<p>
 				<strong>Des compétences multidisciplinaires</strong>
-				— RSE, numérique, développement informatique, stratégie, formation
-				— pour mener à bien des projets complexes.
+				— RSE, numérique, développement informatique, stratégie, formation — pour mener à bien des projets
+				complexes.
 			</p>
 		</div>
 		<div class="quadrant">
 			<p>
 				<strong>L'ambition d'amener nos clients plus loin</strong>
-				et de les aider à réfléchir aux changements de modèles souhaitables
-				pour une soutenabilité réelle
+				et de les aider à réfléchir aux changements de modèles souhaitables pour une soutenabilité réelle
 			</p>
 		</div>
 		<div class="quadrant">
 			<p>
 				<strong>La capacité à accompagner</strong>
-				— au sens le plus noble du terme
-				— et autonomiser nos clients sur des enjeux cruciaux,
-				avec bienveillance et pédagogie
+				— au sens le plus noble du terme — et autonomiser nos clients sur des enjeux cruciaux, avec bienveillance
+				et pédagogie
 			</p>
 		</div>
 	</div>
 </section>
 
-<section id="testimonials"
-				 class="title-and-text as-tertiary">
+<section id="testimonials" class="title-and-text as-tertiary">
 	<header>
 		<h2>Ils nous font confiance</h2>
 	</header>
 </section>
 
-<section id="know-us"
-				 class="title-and-text as-primary">
+<section id="know-us" class="title-and-text as-primary">
 	<header>
 		<h2>Nous connaître</h2>
 	</header>
@@ -185,28 +174,26 @@
 </section>
 
 <style>
+	.quadrants > .quadrant {
+		padding: 0.5rem;
+	}
 
-    .quadrants > .quadrant {
-        padding: .5rem;
-    }
+	@media only screen and (min-width: 576px) {
+		.quadrants {
+			display: grid;
+			grid-template-columns: 16rem 16rem;
+			grid-gap: 0.5rem;
+		}
 
-    @media only screen and (min-width: 576px) {
-        .quadrants {
-            display: grid;
-            grid-template-columns: 16rem 16rem;
-            grid-gap: .5rem;
-        }
+		.quadrants > .quadrant {
+			padding: 1rem;
+		}
+	}
 
-        .quadrants > .quadrant {
-            padding: 1rem;
-        }
-
-    }
-
-    @media only screen and (min-width: 768px) {
-        .quadrants {
-            grid-template-columns: 20rem 20rem;
-            grid-gap: 1.25rem;
-        }
-    }
+	@media only screen and (min-width: 768px) {
+		.quadrants {
+			grid-template-columns: 20rem 20rem;
+			grid-gap: 1.25rem;
+		}
+	}
 </style>
