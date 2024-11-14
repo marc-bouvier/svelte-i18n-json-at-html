@@ -4,8 +4,6 @@
 		description?: string;
 		href?: string;
 		picturePath?: string;
-		pictureHeight?: string;
-		pictureWidth?: string;
 	}
 
 	let {
@@ -13,24 +11,22 @@
 		description = '',
 		href = '',
 		picturePath = '',
-		pictureHeight = '',
-		pictureWidth = ''
 	}: Props = $props();
 </script>
 
 <li style="list-style: none">
 	<figure>
-		<a {href} style="display: block;width: 18rem;height: 6rem">
+		<a {href} style="display: block; margin-left: auto; margin-right: auto;">
 			<img
 				src={picturePath}
 				alt={label}
-				height={pictureHeight}
-				width={pictureWidth}
-				style="object-fit: scale-down"
+				height="81"
+				width="250"
+				style="object-fit: contain"
 			/>
 		</a>
 		<figcaption>
-			<p>{description}</p>
+			<p>{@html description}</p>
 		</figcaption>
 	</figure>
 </li>

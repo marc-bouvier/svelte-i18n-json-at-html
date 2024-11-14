@@ -179,32 +179,24 @@
 			description={$_('ecosystem.boavizta')}
 			href="https://boavizta.org"
 			picturePath="/img/partners/boavizta.svg"
-			pictureWidth="393"
-			pictureHeight="99"
 		/>
 		<Partner
 			label="Shift Your Job homepage"
 			description={$_('ecosystem.shift-your-job')}
 			href="https://shiftyourjob.org/"
 			picturePath="/img/partners/shift-your-job.svg"
-			pictureWidth="184"
-			pictureHeight="40"
 		/>
 		<Partner
 			label="AGIT homepage"
 			description={$_('ecosystem.agit')}
 			href="https://alliancegreenit.org/"
 			picturePath="/img/partners/agit.png"
-			pictureWidth="250"
-			pictureHeight="81"
 		/>
 		<Partner
 			label="BPI France homepage"
 			description={$_('ecosystem.bpi-france')}
 			href="https://www.bpifrance.fr/"
 			picturePath="/img/partners/bpi.svg"
-			pictureWidth="168"
-			pictureHeight="25"
 		/>
 	</ul>
 </section>
