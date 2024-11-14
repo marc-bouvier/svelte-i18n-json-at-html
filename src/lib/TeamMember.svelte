@@ -1,8 +1,12 @@
 <script lang="ts">
-	export let name: string = '';
-	export let topic: string = '';
-	export let bio: string = '';
-	export let picture: string = '';
+	interface Props {
+		name?: string;
+		topic?: string;
+		bio?: string;
+		picture?: string;
+	}
+
+	let { name = '', topic = '', bio = '', picture = '' }: Props = $props();
 </script>
 
 <li class="team-member">

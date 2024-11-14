@@ -5,6 +5,8 @@
 	import Header from '$lib/Header.svelte';
 	import { base } from '$app/paths';
 	import Footer from '$lib/Footer.svelte';
+
+	let { children } = $props();
 </script>
 
 <svelte:head>
@@ -80,6 +82,6 @@
 </svelte:head>
 <Header></Header>
 <main id="main">
-	<slot />
+	{@render children()}
 </main>
 <Footer></Footer>
