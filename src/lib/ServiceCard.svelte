@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { _, json } from 'svelte-i18n';
+	import { _array } from '../i18n';
+
 	let { anchorId = '', i18nId = '' } = $props();
 </script>
 
@@ -8,8 +10,8 @@
 		<h2>{$_('services.' + i18nId + '.title')}</h2>
 	</header>
 	<div class="card__content">
-		{#each $json('services.' + i18nId + '.items') as item}
-			<p>{item}</p>
+		{#each _array($json('services.' + i18nId + '.items')) as paragraph}
+			<p>{paragraph}</p>
 		{/each}
 	</div>
 </section>

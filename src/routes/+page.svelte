@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { _, json } from 'svelte-i18n';
+	import { _array } from '../i18n';
 	import { base } from '$app/paths';
 	import TeamMember from '$lib/TeamMember.svelte';
 	import Partner from '$lib/Partner.svelte';
@@ -26,7 +27,7 @@
 	<header>
 		<h2>{$_('philosophy.title')}</h2>
 	</header>
-	{#each $json('philosophy.paragraphs') as paragraph}
+	{#each _array($json('philosophy.paragraphs')) as paragraph}
 		<p>{@html paragraph}</p>
 	{/each}
 </section>
@@ -48,7 +49,7 @@
 	</header>
 
 	<div class="quadrants">
-		{#each $json('strengths.paragraphs') as strength}
+		{#each _array($json('strengths.paragraphs')) as strength}
 			<div class="quadrant">
 				<p>
 					{@html strength}
@@ -63,7 +64,7 @@
 		<h2>{$_('know-us.title')}</h2>
 	</header>
 	<ul class="grid">
-		{#each $json('know-us.bios') as person}
+		{#each _array($json('know-us.bios')) as person}
 			<TeamMember
 				name={person.name}
 				topic={person.topic}
