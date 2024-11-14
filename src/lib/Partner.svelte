@@ -1,12 +1,5 @@
 <script lang="ts">
-	interface Props {
-		label?: string;
-		description?: string;
-		href?: string;
-		picturePath?: string;
-	}
-
-	let { label = '', description = '', href = '', picturePath = '' }: Props = $props();
+	let { label = '', description = '', href = '', picturePath = '' } = $props();
 </script>
 
 <li style="list-style: none">

@@ -1,10 +1,6 @@
 <script lang="ts">
 	import { _, json } from 'svelte-i18n';
-	interface Props {
-		anchorId?: string;
-		i18nId?: string;
-	}
-	let { anchorId = '', i18nId = '' }: Props = $props();
+	let { anchorId = '', i18nId = '' } = $props();
 </script>
 
 <section id={anchorId} class="card">

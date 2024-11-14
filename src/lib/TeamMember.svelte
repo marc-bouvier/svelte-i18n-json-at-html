@@ -1,14 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-
-	interface Props {
-		name?: string;
-		topic?: string;
-		bio?: string;
-		picture?: string;
-	}
-
-	let { name = '', topic = '', bio = '', picture = '' }: Props = $props();
+	let { name = '', topic = '', bio = '', picture = '' } = $props();
 </script>
 
 <li class="team-member">
