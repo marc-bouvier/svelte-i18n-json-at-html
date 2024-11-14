@@ -7,9 +7,9 @@ export default [
 	{
 		ignores: [
 			'node_modules',
-			'/build',
-			'/.svelte-kit',
-			'/package',
+			'build',
+			'.svelte-kit',
+			'package',
 			'.env',
 			'.env.*',
 			'!.env.example',
