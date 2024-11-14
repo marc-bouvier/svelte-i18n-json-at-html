@@ -2,6 +2,7 @@
 	import { _ } from 'svelte-i18n';
 	import { base } from '$app/paths';
 	import TeamMember from '$lib/TeamMember.svelte';
+	import Partner from '$lib/Partner.svelte';
 </script>
 
 <svelte:head>
@@ -138,13 +139,7 @@
 	<header>
 		<h2>Nous connaître</h2>
 	</header>
-	<ul
-		style="display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-        grid-column-gap: 1.5rem;
-        grid-row-gap: 1.5rem;
-"
-	>
+	<ul class="grid">
 		<!--		https://inclusive-components.design/cards/-->
 		<TeamMember
 			name="Bruno Thomas"
@@ -173,47 +168,94 @@
 	</ul>
 </section>
 
+<section id="ecosystem" class="title-and-text as-secondary">
+	<header>
+		<h2>{$_('ecosystem.title')}</h2>
+	</header>
+
+	<ul class="grid">
+		<Partner
+			label="Boavizta homepage"
+			description={$_('ecosystem.boavizta')}
+			href="https://boavizta.org"
+			picturePath="/img/partners/boavizta.svg"
+			pictureWidth="393"
+			pictureHeight="99"
+		/>
+		<Partner
+			label="Shift Your Job homepage"
+			description={$_('ecosystem.shift-your-job')}
+			href="https://shiftyourjob.org/"
+			picturePath="/img/partners/shift-your-job.svg"
+			pictureWidth="184"
+			pictureHeight="40"
+		/>
+		<Partner
+			label="AGIT homepage"
+			description={$_('ecosystem.agit')}
+			href="https://alliancegreenit.org/"
+			picturePath="/img/partners/agit.png"
+			pictureWidth="250"
+			pictureHeight="81"
+		/>
+		<Partner
+			label="BPI France homepage"
+			description={$_('ecosystem.bpi-france')}
+			href="https://www.bpifrance.fr/"
+			picturePath="/img/partners/bpi.svg"
+			pictureWidth="168"
+			pictureHeight="25"
+		/>
+	</ul>
+</section>
+
 <style>
+	#continuum {
+		display: block;
+		max-width: 100%;
+		max-height: 30vh;
+		object-fit: scale-down;
+	}
 
-    #continuum {
-        display: block;
-        max-width: 100%;
-        max-height: 30vh;
-        object-fit: scale-down;
-    }
+	@media only screen and (min-width: 576px) {
+		#continuum {
+			max-height: 44vh;
+		}
+	}
 
-    @media only screen and (min-width: 576px) {
-        #continuum {
-            max-height: 44vh;
-        }
-    }
+	@media only screen and (min-width: 768px) {
+		#continuum {
+			max-height: 100vh;
+		}
+	}
 
-		@media only screen and (min-width: 768px) {
-        #continuum {
-            max-height: 100vh;
-        }
+	.quadrants > .quadrant {
+		padding: 0.5rem;
+	}
+
+	@media only screen and (min-width: 576px) {
+		.quadrants {
+			display: grid;
+			grid-template-columns: 16rem 16rem;
+			grid-gap: 0.5rem;
 		}
 
-    .quadrants > .quadrant {
-        padding: 0.5rem;
-    }
+		.quadrants > .quadrant {
+			padding: 1rem;
+		}
+	}
 
-    @media only screen and (min-width: 576px) {
-        .quadrants {
-            display: grid;
-            grid-template-columns: 16rem 16rem;
-            grid-gap: 0.5rem;
-        }
+	@media only screen and (min-width: 768px) {
+		.quadrants {
+			grid-template-columns: 20rem 20rem;
+			grid-gap: 1.25rem;
+		}
+	}
 
-        .quadrants > .quadrant {
-            padding: 1rem;
-        }
-    }
-
-    @media only screen and (min-width: 768px) {
-        .quadrants {
-            grid-template-columns: 20rem 20rem;
-            grid-gap: 1.25rem;
-        }
-    }
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+		grid-column-gap: 1.5rem;
+		grid-row-gap: 1.5rem;
+	}
 </style>

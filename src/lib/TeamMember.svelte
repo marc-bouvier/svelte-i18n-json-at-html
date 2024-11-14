@@ -10,7 +10,14 @@
 </script>
 
 <li class="team-member">
-	<img class="member-picture" src={picture} alt="" style="border-radius: 50%;margin: 2rem	" width="360" height="360"/>
+	<img
+		class="member-picture"
+		src={picture}
+		alt=""
+		style="border-radius: 50%;margin: 2rem	"
+		width="360"
+		height="360"
+	/>
 	<p style="font-weight: bold;margin: .125rem">{name}</p>
 	<p style="font-weight: bold;margin: .125rem">{topic}</p>
 	<p style="margin: .125rem">{bio}</p>
