@@ -22,9 +22,11 @@ nav.menu
 
 
 .menu > .brand-logo {
-    width: 16rem;
-    margin-bottom: 1rem;
-    max-height: 6em;
+    padding: 1rem;
+}
+
+.brand-logo img {
+    object-fit: scale-down;
 }
 
 .menu > .items {
@@ -47,22 +49,21 @@ nav.menu
     padding: .25rem;
 }
 
-.menu > .items > a.about{
+.menu > .items > a.about {
     color: var(--DarkOrange);
 }
 
 @media only screen and (min-width: 576px) {
 
-    .menu
-    {
+    .menu {
         flex-direction: row;
         justify-content: space-evenly;
     }
 
     .menu > .brand-logo {
-        width: 14rem;
-        margin-bottom: 1rem;
-        max-height: 7rem;
+        padding-top: 0.25rem;
+        padding-bottom: 1.25rem;
+        margin-top: .75rem;
     }
 
     .menu > .items {
@@ -76,12 +77,6 @@ nav.menu
 
 @media only screen and (min-width: 768px) {
 
-
-    .menu > .brand-logo {
-        width: 11rem;
-        margin-bottom: 1rem;
-        height: 5em;
-    }
 
     .menu > .items {
         gap: 1rem;

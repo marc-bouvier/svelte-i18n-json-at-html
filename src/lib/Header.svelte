@@ -8,7 +8,7 @@
 	</nav>
 	<nav aria-label="Menu" class="menu">
 		<a href="{base}/" class="brand-logo">
-			<img alt="Logo Rezofora" src="{base}/img/Logo-Rezofora-H-RVB.svg" />
+			<img alt="Logo Rezofora" src="{base}/img/Logo-Rezofora-H-RVB-cropped.svg" height="62" width="144" />
 		</a>
 		<div class="items">
 			<a href="{base}/#coaching">Accompagner</a>

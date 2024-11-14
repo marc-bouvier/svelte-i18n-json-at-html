@@ -90,7 +90,7 @@
 		Avec la double expertise entreprise et numérique responsable, Rezofora offre des services
 		articulés autour de sujets clés et complémentaires pour la suite de l'entreprise.
 	</p>
-	<img src="{base}/img/expertises.drawio.svg" />
+	<img src="{base}/img/expertises.drawio.svg" width="780" height="430" />
 </section>
 
 <section id="strengths" class="title-and-text as-secondary">
