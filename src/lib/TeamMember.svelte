@@ -24,15 +24,24 @@
 </li>
 
 <style type="text/scss">
-	.team-member {
-		/*border: 1px solid;*/
-		border-radius: 0.25rem;
-		display: flex;
-		flex-direction: column;
-		position: relative;
-	}
 
-	.team-member p {
-		color: var(--White);
-	}
+  .member-picture {
+    border-radius: 50%;
+    margin: 2rem;
+		width: auto;
+		height: auto;
+  }
+
+  .team-member {
+    /*border: 1px solid;*/
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .team-member p {
+
+    color: var(--White);
+  }
 </style>
