@@ -1,13 +1,15 @@
+
 .cards {
     display: flex;
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: -4rem;
 }
 
 .cards > .card {
-    margin: -2rem 1.5rem 3rem;
+    margin: 0 1.5rem 2rem;
     padding: 2rem;
     width: auto;
     background-color: var(--LightOrange);
@@ -16,6 +18,7 @@
     row-gap: .5rem;
     font-size: small;
 }
+
 
 .cards > .card:last-child {
     margin-bottom: 0;
@@ -44,6 +47,15 @@
 }
 .card > button {
     margin-top: 2rem;
+}
+
+@media only screen and (min-width: 576px) {
+
+    .cards{
+        margin-top: -6rem;
+        margin-bottom: -2rem;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {

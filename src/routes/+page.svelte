@@ -134,7 +134,7 @@
 <!--	</header>-->
 <!--</section>-->
 
-<section id="know-us" class="title-and-text as-primary">
+<section id="know-us" class="title-and-text as-primary" style="margin-bottom: 0;">
 	<header>
 		<h2>Nous connaître</h2>
 	</header>
