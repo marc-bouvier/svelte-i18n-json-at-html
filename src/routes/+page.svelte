@@ -90,7 +90,7 @@
 		Avec la double expertise entreprise et numérique responsable, Rezofora offre des services
 		articulés autour de sujets clés et complémentaires pour la suite de l'entreprise.
 	</p>
-	<img src="{base}/img/expertises.drawio.svg" width="780" height="430" />
+	<img id="continuum" src="{base}/img/expertises.drawio.svg" width="780" height="430" />
 </section>
 
 <section id="strengths" class="title-and-text as-secondary">
@@ -174,26 +174,46 @@
 </section>
 
 <style>
-	.quadrants > .quadrant {
-		padding: 0.5rem;
-	}
 
-	@media only screen and (min-width: 576px) {
-		.quadrants {
-			display: grid;
-			grid-template-columns: 16rem 16rem;
-			grid-gap: 0.5rem;
+    #continuum {
+        display: block;
+        max-width: 100%;
+        max-height: 30vh;
+        object-fit: scale-down;
+    }
+
+    @media only screen and (min-width: 576px) {
+        #continuum {
+            max-height: 44vh;
+        }
+    }
+
+		@media only screen and (min-width: 768px) {
+        #continuum {
+            max-height: 100vh;
+        }
 		}
 
-		.quadrants > .quadrant {
-			padding: 1rem;
-		}
-	}
+    .quadrants > .quadrant {
+        padding: 0.5rem;
+    }
 
-	@media only screen and (min-width: 768px) {
-		.quadrants {
-			grid-template-columns: 20rem 20rem;
-			grid-gap: 1.25rem;
-		}
-	}
+    @media only screen and (min-width: 576px) {
+        .quadrants {
+            display: grid;
+            grid-template-columns: 16rem 16rem;
+            grid-gap: 0.5rem;
+        }
+
+        .quadrants > .quadrant {
+            padding: 1rem;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .quadrants {
+            grid-template-columns: 20rem 20rem;
+            grid-gap: 1.25rem;
+        }
+    }
 </style>
