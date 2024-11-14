@@ -60,10 +60,10 @@
 
 <section id="know-us" class="title-and-text as-primary" style="margin-bottom: 0;">
 	<header>
-		<h2>{$_('bios.title')}</h2>
+		<h2>{$_('know-us.title')}</h2>
 	</header>
 	<ul class="grid">
-		{#each $json('bios') as person}
+		{#each $json('know-us.bios') as person}
 			<TeamMember
 				name={person.name}
 				topic={person.topic}
