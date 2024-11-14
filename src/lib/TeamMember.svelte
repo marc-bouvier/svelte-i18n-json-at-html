@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	interface Props {
 		name?: string;
 		topic?: string;
@@ -12,7 +14,7 @@
 <li class="team-member">
 	<img
 		class="member-picture"
-		src={picture}
+		src={base + picture}
 		alt=""
 		style="border-radius: 50%;margin: 2rem	"
 		width="360"
@@ -24,24 +26,21 @@
 </li>
 
 <style type="text/scss">
-
-  .member-picture {
-    border-radius: 50%;
-    margin: 2rem;
+	.member-picture {
+		border-radius: 50%;
+		margin: 2rem;
 		width: auto;
 		height: auto;
-  }
+	}
 
-  .team-member {
-    /*border: 1px solid;*/
-    border-radius: 0.25rem;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
+	.team-member {
+		border-radius: 0.25rem;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+	}
 
-  .team-member p {
-
-    color: var(--White);
-  }
+	.team-member p {
+		color: var(--White);
+	}
 </style>
