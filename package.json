@@ -41,7 +41,7 @@
 		"vitest": "^2.1.4"
 	},
 	"dependencies": {
-		"svelte-awesome": "^3.3.1",
+		"svelte-awesome": "^3.3.5",
 		"svelte-i18n": "^4.0.0",
 		"sveltekit-sitemap": "^1.0.21"
 	},

@@ -3,39 +3,66 @@
 	import Icon from 'svelte-awesome';
 	import { envelope, linkedin, github } from 'svelte-awesome/icons';
 	import { base } from '$app/paths';
+	import mastodon from '$lib/mastodon';
 </script>
 
 <footer>
-	<div>
+	<div class="content">
 		<nav aria-label="Liens de contact">
-			<header>
-				<h2>Nous contacter</h2>
-			</header>
-			<ul>
-				<li><a href="#">Envoyez nous un email</a></li>
-				<li><a href="#">Infolettre</a></li>
-			</ul>
-			<div class="social-media">
-				<a href="https://github.com/iroco-co/rezofora">Github</a>
-				<a href="https://www.linkedin.com/company/rezofora/posts/?feedView=all">LinkedIn</a>
-				<a href="#">Bluesky</a>
-				<a href="#">Mastodon</a>
+			<div class="contact">
+				<ul>
+					<li><a href="#">
+						<Icon
+							label="mastodon"
+							data={envelope}
+							scale={1.3}
+							class="greenIcon"
+						/>
+					</a></li>
+					<li><a href="https://github.com/iroco-co/rezofora">
+						<Icon
+							label="github"
+							data={github}
+							scale={1.5}
+						/>
+					</a></li>
+					<li><a href="https://www.linkedin.com/company/rezofora/posts/?feedView=all">
+						<Icon
+							label="linkedin"
+							data={linkedin}
+							scale={1.5}
+						/>
+					</a></li>
+					<li><a href="#">
+						<Icon
+							label="mastodon"
+							data={mastodon}
+							scale={1.5}
+							class="greenIcon"
+						/>
+					</a></li>
+				</ul>
 			</div>
 		</nav>
-		<nav aria-label="Autres liens">
-			<header>
-				<h2>Menu</h2>
-			</header>
-			<ul>
-				<li><a href="https://jobs.makesense.org/en/projects/iroco-364">Postuler</a></li>
-				<li><a href="https://blog.iroco.co">Blog & Actualités</a></li>
-				<li><a href="https://iroco.co">Iroco</a></li>
-				<li><a href="{base}/legal">{$_('footer.other.legal')}</a></li>
-				<li><a href="{base}/faq">{$_('footer.other.faq')}</a></li>
-				<li><a href="{base}/sitemap">{$_('footer.other.sitemap')}</a></li>
-				<li><a href="{base}/terms">{$_('footer.other.terms')}</a></li>
-			</ul>
+		<nav aria-label="Liens légaux">
+			<div class="contact">
+				<ul>
+					<li><a href="{base}/legal">{$_('footer.other.legal')}</a></li>
+					<li><a href="{base}/terms">{$_('footer.other.terms')}</a></li>
+				</ul>
+			</div>
 		</nav>
 	</div>
-	<p class="copyright">© 2024 Rezofora. Tous droits réservés.</p>
+	<div class="copyright">{$_('footer.other.copyrights')}</div>
 </footer>
+
+<style>
+	.content {
+		display: block;
+		text-align: center;
+	}
+	.contact li {
+		display: inline-block;
+		padding: 0.3em;
+	}
+</style>
