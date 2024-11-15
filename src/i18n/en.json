@@ -3,7 +3,11 @@
 		"title": "🇬🇧 svelte-i18n with $json() and {@html}"
 	},
 	"philosophy": {
-		"title": "Our philosophy",
-		"paragraphs": ["English Foo <strong>Bar</strong>", "Baz <strong>Polop ! </strong>"]
-	}
+		"title": "🇬🇧Our philosophy",
+		"paragraphs": [
+			"🇬🇧 English Foo <strong>Bar</strong>", 
+			"🇬🇧 Baz <strong>Polop ! </strong>"
+		]
+	},
+	"singular.html":"🇬🇧 Singular sentence with <strong>HTML elements</strong>."
 }

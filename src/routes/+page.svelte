@@ -35,17 +35,23 @@
 	>+page.svelte:34 [svelte] hydration_html_changed The value of an `@html ...` block near src/​routes/​+page.svelte:34:2 changed between server and client renders. The client value will be ignored in favour of the server value</pre>
 
 	<hr/>
-
+	<p>With $json and @html : Fallback to french</p>
 	{#each $json('philosophy.paragraphs') as paragraph}
 		<p>{@html paragraph}</p>
 	{/each}
 
 	<hr/>
 
-	<p>Same paragraphs rendered without "@html".</p>
-	
+	<p>Without @html : No fallback</p>
 	{#each $json('philosophy.paragraphs') as paragraph}
 		<p>{paragraph}</p>
 	{/each}
 
+	<hr/>
+	
+	<p>With $_ and @html : Fallback to french</p>
+	<p>{@html $_('singular.html')}</p>
+
+	<p>Without @html : No fallback</p>
+	<p>{$_('singular.html')}</p>
 </section>
