@@ -45,7 +45,7 @@
 	},
 	"dependencies": {
 		"svelte-awesome": "^3.3.5",
-		"svelte-i18n": "^4.0.0",
+		"svelte-i18n": "^4.0.1",
 		"sveltekit-sitemap": "^1.0.21"
 	},
 	"type": "module"
