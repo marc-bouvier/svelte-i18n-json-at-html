@@ -1,41 +1,27 @@
-# Rezofora
+# svelte-i18n with $json() and {@html}
 
-- Site live : https://rezofora.co
-- Site en preview sur Github pages : https://iroco-co.github.io/rezofora/
-- [Design visuel](design-visuel)
+We are using [svelte-i18n](https://github.com/kaisermann/svelte-i18n) to translate a static site.
 
-## Developing
+Using Svelte 5.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+We use `$json()` from svelte-i18n to get an array from i18n json. And then, we use Svelte's `{@html}` to interpret HTML elements in the i18n strings.
 
-```sh
-npm run dev -- --host
+The language is detected from the browser (see `src/i18n/index.ts` and `src/routes/+layout.ts`).
+
+In this setup, french is the default language. It will fallback to this language.
+
+When the browser language is english, regular translations are in english (ex. `<h1>` and `<h2>` headers).
+
+But paragraphs as a `string[]` from `$json()` that are then rendered with `{@html}` 
+
+```svelte
+	{#each $json('philosophy.paragraphs') as paragraph}
+		<p>{@html paragraph}</p>
+	{/each}
 ```
 
-## Running tests
-
-```sh
-npm test
+```text
++page.svelte:34 [svelte] hydration_html_changedThe value of an `{@html ...}` block near src/​routes/​+page.svelte:34:2 changed between server and client renders. The client value will be ignored in favour of the server value
 ```
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with
-
-```sh
-npm run preview -- --host --port
-```
-
-## Deployment
-
-After building the app, you can deploy it.
-
-```sh
-npm run deploy
-```
+![](image.png)

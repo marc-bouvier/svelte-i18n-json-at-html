@@ -7,7 +7,3 @@ init({
 	fallbackLocale: 'fr',
 	initialLocale: getLocaleFromNavigator()
 });
-
-export function _array(something: unknown): any[] {
-	return <any[]>something;
-}
